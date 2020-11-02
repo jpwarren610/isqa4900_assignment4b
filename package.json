@@ -5,9 +5,8 @@
   "author": "jpwarren610 <jpwarren@unomaha.edu>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "build": "node build/build.js"
+  "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+  "build": "node build/build.js"
   },
   "dependencies": {
     "@mdi/font": "^5.8.55",
